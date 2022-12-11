@@ -39,7 +39,7 @@ const countryA: CountryWithLanguages = {
 
 type CountryWithStatistics = Country & CountryStatistics
 
-const countryB = {
+const countryB : CountryWithStatistics = {
     name: "China",
     code: "CN",
     population: 1_412_600_000
